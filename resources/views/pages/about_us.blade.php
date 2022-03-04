@@ -14,10 +14,8 @@
         <p>Built with &hearts; by opilam</p>
         <p><a href="/">Revenir a la page d'acceuil</a></p>
 
-        <p>I'ts currently {{ date('h:i A') }}</p>
-
         <footer>
-            <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/about-us">About us</a></p>
+            <p>&copy; Copyright {{ date('Y') }}</p>
         </footer>
     </body>
 </html>
