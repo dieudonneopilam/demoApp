@@ -4,5 +4,5 @@
 
 @section('content')
         <p>Built with &hearts; by opilam</p>
-        <p><a href="/">Revenir a la page d'acceuil</a></p>
+        <p><a href=" {{ route('home') }} ">Revenir a la page d'acceuil</a></p>
 @endsection
